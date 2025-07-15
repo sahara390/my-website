@@ -1,0 +1,169 @@
+body{
+background-color: darkslategrey;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  
+
+
+}
+
+.navbar{
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  padding: 10px 9px ;
+  background-color:slateblue ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index:100 ;
+
+  
+  
+
+}
+.navbar .logo{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.navbar ul{
+  display: flex;
+}
+
+.navbar ul li {
+list-style:none ;
+margin-left:25px ;
+}
+.navbar ul li{
+  font-size:20px ;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.navbar ul li:hover a,
+.navbar ul li.active a {
+  color: chartreuse;
+}
+
+.home{
+  display: flex;
+  text-align: center;
+  height: 100;
+  padding: 60px 9% 0;
+color: white;
+}
+.home-info h1{
+font-size: 55px;
+
+}
+
+.home-info h2 { 
+  font-size: 32px;
+  margin-top: -1opx;
+}
+
+
+.home-info p {
+  font-size: 16px ;
+  margin: 10px 0 25px;
+
+
+}
+
+.home-info .btn-sci {
+  display: flex;
+  align-items: center;
+
+}
+.btn{
+  display: inline-block;
+  padding:10px 30px ;
+  background-color: limegreen;
+  border: 2px solid chartreuse;
+  border-radius: 40px;
+  box-shadow: 0 0 10px chartreuse;
+font-size: 16px;
+color: black;
+font-weight: 600;
+transition: 0.5s; ;
+
+}
+.btn:hover{
+  background:transparent ;
+  box-shadow: none;
+  color: limegreen;
+
+}
+
+.home-info .btn-sci .sci {
+  margin: left 20px; ;
+}
+.home-info .btn-sci .sci a{
+display: inline-flex;
+padding: 8px;
+border: 2px solid chartreuse;
+border-radius:50% ;
+font-size: 20px;
+color: chartreuse;
+margin: 0 8px;
+transition: .5s;
+}
+.home-info .btn-sci .sci a:hover{
+  background-color: chartreuse;
+  color: black;
+  box-shadow: 0 0 10px chartreuse;
+
+}
+.home-img .img-box{
+  width: 10vw;
+height: 10vw;
+background:red;
+border-radius: 50px;
+padding: 2px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.home-img .img-box ::before,
+  .home-img -img-box::after{
+  content: ;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-color: conic-gradient(transparent,transparent,transparent,green );
+}
+
+
+
+.home-img .img-box .img-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color:slateblue;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.home-img .img-box .img-item img {
+  position: absolute;
+  top: 30px;
+display: block;
+width: 85%;
+object-fit: cover;
+
+
+
+
+}
+
+
+
+
+
+
+
